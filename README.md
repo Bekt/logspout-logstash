@@ -1,7 +1,7 @@
 # logspout-logstash
 
 [![Docker Hub](https://img.shields.io/docker/pulls/bekt/logspout-logstash.svg?maxAge=2592000?style=plastic)](https://hub.docker.com/r/bekt/logspout-logstash/)
-[![](https://img.shields.io/docker/automated/bekt/logspout-logstash.svg?maxAge=2592000)](https://hub.docker.com/r/bekt/logspout-logstash/builds/)
+[![](https://img.shields.io/docker/automated/bekt/logspout-logstash.svg?maxAge=2592000)](https://hub.docker.com/r/bekt/logspout-logstash/builds/) [![](https://images.microbadger.com/badges/image/bekt/logspout-logstash.svg)](https://microbadger.com/images/bekt/logspout-logstash "Get your own image badge on microbadger.com")
 
 
 Tiny [Logspout](https://github.com/gliderlabs/logspout) adapter to send Docker container logs to [Logstash](https://github.com/elastic/logstash) via UDP or TCP. This just the hosted working version of [looplab/logspout-logstash](https://github.com/looplab/logspout-logstash).
@@ -63,3 +63,4 @@ output {
   stdout { codec => rubydebug }
 }
 ```
+ 

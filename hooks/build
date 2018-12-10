@@ -1,0 +1,7 @@
+#!/bin/bash
+# Docs: https://docs.docker.com/docker-cloud/builds/advanced/
+
+set -e
+
+echo "=> Running pre-push"
+./ci.sh

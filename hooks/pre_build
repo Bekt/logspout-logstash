@@ -1,0 +1,14 @@
+#!/bin/bash
+# Docs: https://docs.docker.com/docker-cloud/builds/advanced/
+
+set -e
+
+echo "=> Running pre-build"
+cat /proc/version
+env
+docker info
+
+curl -L -o jq https://github.com/stedolan/jq/releases/download/jq-1.5/jq-linux64
+chmod +x jq
+mv jq /usr/local/bin/
+
